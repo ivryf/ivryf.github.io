@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Project Title — Your Name</title>
+<title>Wildlife Rehabilitator Retreat - Ivry Frost</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -122,6 +122,23 @@ header.nav{
 .proj-gallery div{
   aspect-ratio: 4/3; background: var(--paper-2) center/cover no-repeat; border: 1px solid var(--graphite);
 }
+.gallery-item{
+  margin: 0;
+  border: 1px solid var(--graphite);
+}
+.gallery-item > div{
+  aspect-ratio: 4/3;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid var(--graphite);
+}
+.gallery-item figcaption{
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .05em;
+  padding: 8px 12px;
+  background: #fff;
+}
 
 /* ---------- prev/next + footer nav ---------- */
 .proj-nav{
@@ -151,14 +168,6 @@ footer.contact{ padding: 60px 0 40px; margin-top: 40px; }
   </div>
 </header>
 
-<!-- ================= TITLE BLOCK ================= -->
-<div class="title-block">
-  <div class="row" style="color:var(--graphite);">
-    <div class="cell">Sheet<b>03.1</b></div>
-    <div class="cell">Type<b>Design Project</b></div>
-    <div class="cell">Date<b>Month Year</b></div>
-  </div>
-</div>
 
 <!-- ================= PROJECT HERO ================= -->
 <section class="proj-hero">
@@ -174,42 +183,44 @@ footer.contact{ padding: 60px 0 40px; margin-top: 40px; }
 
 <!-- ================= BODY ================= -->
 <section class="proj-body">
+<h2>Design Process</h2>
 
-  <h2>Overview</h2>
-  <p></p>
+<p>Our design process had three distinct phases.</p>
+
+<h3>Phase 1: Research</h3>
+<p>We reached out to as many rehabilitators as we could find and asked them about their work. The idea was to avoid asking any leading questions, because we wanted our image of them to be unmarked by our own biases. We ended Phase 1 by creating "personas" — three amalgamations that together represented the group.</p>
+
+<h3>Phase 2: Ideation</h3>
+<p>We came up with as many ideas as we could to solve the problems our personas ran into, ensuring that we weren't creating solutions to problems that didn't exist. Instead of meeting with rehabilitators to learn about them, in Phase 2 we met with them to workshop ideas, which kept our ideas grounded in actually helping them.</p>
+
+<h3>Phase 3: Presentation</h3>
+<p>Phase 3 was centered on presentation. We no longer met with rehabilitators — we simply made our idea look appealing and presented on it.</p>
 
   <h2>Process</h2>
-  <p>Walk through how you approached the build: research, iteration, design decisions, and any pivots along the way. This is the section people read to understand how you think, not just what you made.</p>
-  <ul>
-    <li>Key step or decision one, with a short note on why you made it.</li>
-    <li>Key step or decision two.</li>
-    <li>Key step or decision three.</li>
-  </ul>
+  <p>From each phase, we were able to learn something different.</p>
+    <ul>
+    <li><strong>Phase 1</strong> taught us that we had no real idea what the main problems of any given profession are. After meeting with many rehabilitators, we realized the problems were fairly consistent — and far from what our initial assumptions had been.</li>
+    <li><strong>Phase 2</strong> taught us how to properly ideate. Instead of chasing some niche technical idea that would be fun to build, or waiting for an "aha" moment, we learned that the best ideas usually emerge after pitching many bad ones, and that ideas should be clearly matched to specific problems identified in Phase 1.</li>
+    <li><strong>Phase 3</strong> let us practice presenting an idea. Having gone through Phases 1 and 2 meant that by this point in the semester we genuinely cared about our idea — and wanting to show its best side pushed us to work tirelessly on the presentation itself.</li>
+</ul>
 
-  <div class="proj-gallery">
+<div class="proj-gallery">
+  <figure class="gallery-item">
     <div style="background-image:url('images/CD_DR3_Mat.png')"></div>
+    <figcaption>Presenting our final idea.</figcaption>
+  </figure>
+  <figure class="gallery-item">
     <div style="background-image:url('images/CD_DR3_Poster.png')"></div>
-  </div>
+    <figcaption>Narrowing down from two ideas to one.</figcaption>
+  </figure>
+</div>
 
-  <h2>Outcome</h2>
-  <p>Describe the result — what worked, what you'd improve next time, and any measurable outcome (performance numbers, feedback received, what it enabled).</p>
-
-  <h2>Reflection</h2>
-  <p>Optional: a short note on what you learned or would do differently. Delete this section if it feels redundant with Outcome.</p>
-
+  <h2>Outcome</h2><p>Our final concept was the Wildlife Rehabilitator Retreat: to address the burnout and isolation so many rehabilitators face, we designed a safe space where they could come together, enjoy nature and each other's company, and have a genuine mental reset — while a trained substitute cared for their animals in the meantime. The rehabilitators we spoke with responded to the idea enthusiastically, but it's worth noting that this project was never really about the final concept; it was about the process that got us there. I learned far more from ideating this retreat than actually building it could have ever taught me. My teaming skills, ideation ability, and charisma while interviewing people all improved dramatically over the course of this project, to name just a few of the soft skills I gained. Ultimately, I believe this project prepared me to be a professional engineer more than many technical classes have, because it gave me invaluable design experience.</p>
 </section>
-
-<!-- ================= PREV / NEXT ================= -->
-<nav class="proj-nav">
-  <a href="project0.html">← Previous Project</a>
-  <a href="index.html#projects">All Projects</a>
-  <a href="project2.html">Next Project →</a>
-</nav>
-
 <!-- ================= FOOTER ================= -->
 <footer class="contact grid-bg">
   <div class="contact-inner">
-    <p style="color:var(--paper);">© 2026 Your Name. All Rights Reserved.</p>
+    <p style="color:var(--paper);">© 2026 Ivry Frost. All Rights Reserved.</p>
   </div>
 </footer>
 
